@@ -1,6 +1,9 @@
 <html>
 <head>
     <style>
+    body{
+        margin: 0px;        
+    }
     .searchbar{
         width: 100px;
         height: 40px;
@@ -11,16 +14,33 @@
         width: 50px;
         height: 40px;
     }
+        
+    .side-nav-list{
+            display: inline-block;
+     }
+            
+    .nav-elements{
+        padding: 10px;
+    }
     </style>
     
 </head>
 <body>
-<nav>
+<head>
     <form>
         <input type = "search" class = "searchbar"/>
         <input type = "file" class = "upload"/>
         
     </form>
+</head>
+
+<nav>
+    <ul class = "side-nav-list">
+       <li class = "nav-elements">Dashboard</li>
+       <li class = "nav-elements">Sales</li>
+       <li class = "nav-elements">Customers</li>
+       <li class = "nav-elements">Grubs</li>
+    </ul>
 </nav>
 
 </body>
